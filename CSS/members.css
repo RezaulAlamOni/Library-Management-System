@@ -1,0 +1,153 @@
+
+body {
+	background-color:greenyellow;
+	color: blue;
+}
+
+input {
+    border-radius: 7px;
+    border-color: black;
+    color: black;
+    font-size: 30px;
+    padding: 5px 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: white;
+    margin-left: 30px;
+}
+.ib {
+	border: 1px solid transparent;
+	color: yellow;
+	background: #fc070766;
+	padding: 10px 10px;
+	border-radius: 5px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 40px;
+}
+.md_container {
+	padding: 105px 155px;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center; 
+	font-weight: bold;
+
+}
+
+.md_container table {
+	margin:auto;
+}
+
+.md_container th {
+	border: 1px solid red; 
+	padding: 15px 15px;
+	background: white; 
+}
+
+.md_container td {
+	border: 1px solid black; 
+	padding: 15px 5px;
+
+}
+.md_container tr a {
+	border: 1px solid transparent;
+	text-decoration: none;
+	color: black;
+	padding: 10px 5px;
+	background: green;
+	font-weight: bold;
+} 
+
+.md_container tr a:hover {
+	color: orangered;
+	transition: .01s;
+
+}
+
+
+
+/*............books data.php...............*/
+
+
+
+.mdata_container {
+	padding: 60px 450px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+
+.mdata_container th {
+	border: 1px solid red; 
+	padding: 15px 10px;
+	background: red; 
+}
+
+.mdata_container td {
+	border: 1px solid red; 
+	padding: 15px 5px;
+	
+}
+
+.mdata_container input {
+	border: 1px solid transparent;
+	background: white;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding: 3px 22px;
+	margin: -5px 10px;
+
+}
+
+
+.mdata_container input:hover {
+	background: gray;
+	color: black;
+	transition: .07s;  
+	
+
+}
+
+
+
+/*............books edit.php..........*/
+
+
+.medit_container {
+	padding: 60px 450px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+
+.medit_container th {
+	border: 1px solid blue; 
+	padding: 15px 10px;
+	background: yellow; 
+}
+
+.medit_container td {
+	border: 1px solid green; 
+	padding: 13px 5px;
+	
+}
+
+.medit_container input {
+	border: 1px solid transparent;
+	background: white;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding: 3px 22px;
+	margin: -5px 10px;
+
+}
+
+
+.medit_container input:hover {
+	color: blue;
+	transition: .07s;  
+	
+
+}

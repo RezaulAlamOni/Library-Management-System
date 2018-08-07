@@ -1,0 +1,144 @@
+
+body {
+	background-color:bisque;
+	color: blue;
+    font-family:cursive;
+}
+
+input {
+    border-radius: 7px;
+    border-color: forestgreen;
+    color: blueviolet;
+    font-size: 30px;
+    padding: 5px 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: white;
+    margin-left: 30px;
+}
+.ib {
+	border: 1px solid transparent;
+	color: white;
+	background: #fc070766;
+	padding: 10px 10px;
+	border-radius: 5px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.rt_container {
+	padding: 55px 155px;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center; 
+	font-weight: bold;
+
+}
+
+.rt_container table {
+	margin:auto;
+}
+
+.rt_container th {
+	border: 1px solid darkgreen; 
+	padding: 15px 15px;
+	background:yellow; 
+}
+
+.rt_container td {
+	border: 1px solid blue; 
+	padding: 15px 5px;
+
+}
+
+.rt_container tr:hover {
+	color: black; 
+	transition: .07s;
+}
+
+
+.rt_container tr a {
+	border: 1px solid transparent;
+	text-decoration: none;
+	color: black;
+	padding: 10px 5px;
+	background: yellow;
+	font-weight: bold;
+} 
+
+.rt_container tr a:hover {
+	color: darkblue;
+	transition: .07s;
+
+}
+
+
+
+/*............books data.php...............*/
+
+
+
+.rdata_container {
+	padding: 60px 450px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+
+.rdata_container th {
+	border: 1px solid darkblue; 
+	padding: 15px 10px;
+	background: yellowgreen; 
+}
+
+.rdata_container td {
+	border: 1px solid blue; 
+	padding: 15px 5px;
+	
+}
+
+.rdata_container input {
+	border: 1px solid transparent;
+	background: white;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding: 3px 22px;
+	margin: -5px 10px;
+
+}
+/*............books edit.php..........*/
+
+.redit_container {
+	padding: 60px 450px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+
+.redit_container th {
+	border: 1px solid green; 
+	padding: 15px 10px;
+}
+
+.redit_container td {
+	border: 1px solid blue; 
+	padding: 15px 5px;
+	
+}
+
+.redit_container input {
+	border: 1px solid transparent;
+	background: white;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding: 3px 22px;
+	margin: -5px 10px;
+
+}
+.redit_container input:hover {
+	color: blueviolet;
+	transition: .07s;  
+}

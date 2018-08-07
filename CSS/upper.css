@@ -1,0 +1,54 @@
+#upper {
+	background: url(../IMAGES/0289_library_f1-2400v2.jpg);
+	overflow:visible;
+	padding: 99px 50px;
+	margin: auto;
+}
+.container> h1 {
+	text-align: center;
+	font-family:fantasy;
+	font-size: 85px;
+	margin-top: -35px;
+	color:blue;
+}
+
+.menu> ul {
+	list-style: none;
+	text-align: center;
+}
+
+.menu> ul> li {
+	float:left;
+	padding: 20px 30px;
+    margin-top: 60px;
+    background-color: aqua;
+}
+
+.menu> ul> li> a {
+	text-decoration: none;
+	color: darkgreen; 
+}
+
+
+a{
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+    background: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family:fantasy;
+}
+
+a:hover {
+    color: red;
+    background:lightgreen; 
+    transition: 1s; 
+}
+
+p {
+    margin-left: 1220px;
+    margin-top: 50px;
+    position:fixed;
+    
+}

@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    font-family:inherit;
+    font-size: 50px;  
+    color : blue;
+}
+table{
+    background-color: darkmagenta;
+    text-align: center;
+    border: 2px dashed green;
+    margin: auto;
+    border-radius: 10px;
+}
+img{
+    margin: auto;
+    width: auto;
+    height: 170px;
+}
+td {
+	background-color: yellow;
+	border-radius: 20px;
+    text-align: center;
+    padding: auto;
+    width:320px;
+    height:100;
+    float: left;
+    border: 1px dashed blue; 
+}
+td:hover {
+	background:yellow;
+	transition: 1s; 
+}
+a {
+	text-decoration: none;
+	color: blue;
+	transition: 1s; 
+}
+a:hover {
+	color: darkred;  
+}
+p {
+	color:black;
+    background-color:mediumvioletred;
+    height: auto;
+}

@@ -1,0 +1,164 @@
+
+body {
+	background-color: greenyellow;
+	color: darkblue;
+}
+
+input {
+    border-radius: 7px;
+    border-color: black;
+    color: black;
+    font-size: 30px;
+    padding: 5px 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: white;
+    margin-left: 30px;
+}
+
+input:hover {
+    color: white;
+    transition: .07s; 
+}
+
+
+.ib {
+	border: 1px solid transparent;
+	color: white;
+	background: #fc070766;
+	padding: 10px 10px;
+	border-radius: 5px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 40px;
+}
+.bd_container {
+	padding: 55px 155px;
+	font-family: arial;
+	font-size: 16px;
+	text-align: center; 
+	font-weight: bold;
+
+}
+
+.bd_container table {
+	margin: auto;
+}
+
+.bd_container th {
+	border: 1px solid green; 
+	padding: 15px 2px;
+	background: gray; 
+}
+
+.bd_container td {
+	border: 1px solid green; 
+	padding: 15px 5px;
+
+}
+
+.bd_container tr:hover {
+	color:black; 
+	transition: .07s;
+}
+
+
+.bd_container tr a {
+	border: 1px solid transparent;
+	text-decoration: none;
+	color: red;
+	padding: 10px 5px;
+	font-weight: bold;
+} 
+
+.bd_container tr a:hover {
+	color: darkred;
+	transition: .07s;
+
+}
+
+
+
+/*............books data.php...............*/
+
+
+
+.bdata_container {
+	padding: 60px 450px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+
+.bdata_container th {
+	border: 1px solid darkgreen; 
+	padding: 15px 10px;
+}
+
+.bdata_container td {
+	border: 1px solid blue; 
+	padding: 15px 5px;
+	
+}
+
+.bdata_container input {
+	border: 1px solid transparent;
+	background: white;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding: 3px 22px;
+	margin: -5px 10px;
+
+}
+
+
+.bdata_container input:hover {
+	color: darkgreen;
+	transition: .07s;  
+	
+
+}
+
+
+
+/*............books edit.php..........*/
+
+
+.bedit_container {
+	padding: 60px 450px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+
+.bedit_container th {
+	border: 1px solid blue; 
+	padding: 15px 10px;
+	background:gray; 
+}
+
+.bedit_container td {
+	border: 1px solid green; 
+	padding: 15px 5px;
+	
+}
+
+.bedit_container input {
+	border: 1px solid transparent;
+	background: white;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding: 3px 22px;
+	margin: -5px 10px;
+
+}
+
+
+.bedit_container input:hover {
+	color: darkgreen;
+	transition: .7s;  
+	
+
+}
